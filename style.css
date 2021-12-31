@@ -1,0 +1,90 @@
+:root {
+  --myGray: rgb(233, 230, 230);
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--myGray);
+  text-align: center;
+  padding: 10px;
+}
+
+#main {
+  display: block;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#header {
+  background-color: var(--myGray);
+}
+
+#title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#subtitle {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#img-caption {
+  font-size: 17px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+
+#norman-borlaug-image {
+  margin: 0;
+}
+
+#tribute-info {
+  background-color: var(--myGray);
+}
+
+#section-title {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#my-list {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.year {
+  font-weight: bold;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#quote {
+  margin: auto;
+  text-align: left;
+  max-width: 550px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#more-info {
+  margin-top: 50px;
+  font-size: 21px;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
